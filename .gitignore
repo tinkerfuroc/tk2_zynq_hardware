@@ -1,0 +1,16 @@
+*
+!.git*
+!*/
+
+!ip_repo/**
+
+!*.xpr
+!*.sdk/device*/**/*.dts
+!*.sdk/device*/**/*.dtsi
+!*.sdk/device*/**/*.mss
+!*.sdk/device*/**/Makefile
+
+!*.srcs/con*/**/*.xdc
+!*.srcs/sou*/**/*.bd
+
+

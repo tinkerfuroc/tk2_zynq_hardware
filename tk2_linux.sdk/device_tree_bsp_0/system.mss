@@ -5,7 +5,6 @@
 BEGIN OS
  PARAMETER OS_NAME = device_tree
  PARAMETER PROC_INSTANCE = ps7_cortexa9_0
- PARAMETER bootargs = console=ttyPS0,115200 root=/dev/ram rw earlyprintk
  PARAMETER console_device = ps7_uart_1
  PARAMETER main_memory = ps7_ddr_0
 END
@@ -22,6 +21,8 @@ BEGIN DRIVER
  PARAMETER HW_INSTANCE = axi_uartlite_0
  PARAMETER clock-names = ref_clk
  PARAMETER clocks = clkc 0
+ PARAMETER interrupt-parent = intc
+ PARAMETER interrupts = 0 29 1
  PARAMETER port-number = 1
  PARAMETER reg = 0x42c00000 0x10000
  PARAMETER xlnx,baudrate = 9600
@@ -36,9 +37,11 @@ BEGIN DRIVER
  PARAMETER HW_INSTANCE = axi_uartlite_1
  PARAMETER clock-names = ref_clk
  PARAMETER clocks = clkc 0
+ PARAMETER interrupt-parent = intc
+ PARAMETER interrupts = 0 30 1
  PARAMETER port-number = 2
  PARAMETER reg = 0x42c10000 0x10000
- PARAMETER xlnx,baudrate = 9600
+ PARAMETER xlnx,baudrate = 115200
  PARAMETER xlnx,data-bits = 8
  PARAMETER xlnx,odd-parity = 0
  PARAMETER xlnx,s-axi-aclk-freq-hz-d = 50.0
@@ -50,6 +53,8 @@ BEGIN DRIVER
  PARAMETER HW_INSTANCE = axi_uartlite_2
  PARAMETER clock-names = ref_clk
  PARAMETER clocks = clkc 0
+ PARAMETER interrupt-parent = intc
+ PARAMETER interrupts = 0 31 1
  PARAMETER port-number = 3
  PARAMETER reg = 0x42c20000 0x10000
  PARAMETER xlnx,baudrate = 9600
