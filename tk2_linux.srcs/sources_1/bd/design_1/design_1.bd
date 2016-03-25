@@ -323,7 +323,7 @@
           <spirit:configurableElementValue spirit:referenceId="PCW_GPIO_MIO_GPIO_ENABLE">1</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="PCW_GPIO_MIO_GPIO_IO">MIO</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="PCW_GPIO_EMIO_GPIO_ENABLE">1</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="PCW_GPIO_EMIO_GPIO_IO">4</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="PCW_GPIO_EMIO_GPIO_IO">12</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
       <spirit:componentInstance>
@@ -402,7 +402,7 @@
         <spirit:componentRef spirit:library="ip" spirit:name="axi_uartlite" spirit:vendor="xilinx.com" spirit:version="2.0"/>
         <spirit:configurableElementValues>
           <spirit:configurableElementValue spirit:referenceId="bd:xciName">design_1_axi_uartlite_0_2</spirit:configurableElementValue>
-          <spirit:configurableElementValue spirit:referenceId="C_BAUDRATE">115200</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_BAUDRATE">57600</spirit:configurableElementValue>
         </spirit:configurableElementValues>
       </spirit:componentInstance>
       <spirit:componentInstance>

@@ -41,7 +41,7 @@ BEGIN DRIVER
  PARAMETER interrupts = 0 30 1
  PARAMETER port-number = 2
  PARAMETER reg = 0x42c10000 0x10000
- PARAMETER xlnx,baudrate = 115200
+ PARAMETER xlnx,baudrate = 57600
  PARAMETER xlnx,data-bits = 8
  PARAMETER xlnx,odd-parity = 0
  PARAMETER xlnx,s-axi-aclk-freq-hz-d = 50.0
@@ -135,7 +135,7 @@ END
 BEGIN DRIVER
  PARAMETER DRIVER_NAME = gpiops
  PARAMETER HW_INSTANCE = ps7_gpio_0
- PARAMETER emio-gpio-width = 4
+ PARAMETER emio-gpio-width = 12
  PARAMETER gpio-mask-high = 0
  PARAMETER gpio-mask-low = 22016
 END

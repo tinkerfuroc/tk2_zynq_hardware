@@ -2,7 +2,7 @@
 
 dtsi:
 	dtc -O dtb -I dts -o temp.dtb system.dts
-	dtc -O dts -I dtb -o system-all.dts temp.dtb
+	dtc -O dts -I dtb -o temp.dts temp.dtb
 	rm -f temp.dtb
 
 dtb:
