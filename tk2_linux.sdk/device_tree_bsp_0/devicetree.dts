@@ -453,6 +453,20 @@
 			default-state = "on";
 			linux,default-trigger = "cpu1";
 		};
+		
+		led_lb {
+			label = "led_lb";
+			gpios = <0x5 0x3d 0x1>;
+			default-state = "on";
+			linux,default-trigger = "heartbeat";
+		};
+		
+		led_lg {
+			label = "led_lg";
+			gpios = <0x5 0x3e 0x1>;
+			default-state = "on";
+			linux,default-trigger = "cpu1";
+		};
 
 		usr_led1 {
 			label = "usr_led1";
@@ -466,12 +480,6 @@
 			gpios = <0x5 0x9 0x1>;
 			default-state = "off";
 			linux,default-trigger = "none";
-		};
-
-		gpio-beep {
-			compatible = "gpio-beeper";
-			lable = "pl-beep";
-			gpios = <0x5 0x39 0x0>;
 		};
 	};
 
