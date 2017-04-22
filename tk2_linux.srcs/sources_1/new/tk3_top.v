@@ -20,12 +20,10 @@ module tk3_top
     DIR_2,
     DIR_3,
     DIR_4,
-    DIR_5,
     EN_1,
     EN_2,
     EN_3,
     EN_4,
-    EN_5,
     FIXED_IO_ddr_vrn,
     FIXED_IO_ddr_vrp,
     FIXED_IO_mio,
@@ -36,7 +34,6 @@ module tk3_top
     PULSE_2,
     PULSE_3,
     PULSE_4,
-    PULSE_5,
     pwm_0,
     pwm_1,
     uart_rtl_0_rxd,
@@ -60,12 +57,10 @@ module tk3_top
   output DIR_2;
   output DIR_3;
   output DIR_4;
-  output DIR_5;
   output EN_1;
   output EN_2;
   output EN_3;
   output EN_4;
-  output EN_5;
   inout FIXED_IO_ddr_vrn;
   inout FIXED_IO_ddr_vrp;
   inout [53:0]FIXED_IO_mio;
@@ -76,8 +71,6 @@ module tk3_top
   output PULSE_2;
   output PULSE_3;
   output PULSE_4;
-  output PULSE_5;
-  inout [11:0]gpio_0_tri_io;
   output pwm_0;
   output pwm_1;
   input uart_rtl_0_rxd;
