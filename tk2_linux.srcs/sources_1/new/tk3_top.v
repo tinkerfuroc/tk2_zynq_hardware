@@ -34,6 +34,7 @@ module tk3_top
     PULSE_2,
     PULSE_3,
     PULSE_4,
+    gpio_0_tri_io,
     pwm_0,
     pwm_1,
     uart_rtl_0_rxd,
@@ -71,6 +72,7 @@ module tk3_top
   output PULSE_2;
   output PULSE_3;
   output PULSE_4;
+  inout [11:0]gpio_0_tri_io;
   output pwm_0;
   output pwm_1;
   input uart_rtl_0_rxd;
@@ -123,7 +125,7 @@ module tk3_top
   wire uart_rtl_2_rxd;
   wire uart_rtl_2_txd;
   
-  design_1_wrapper design_1_i(/*autoinst*/
+  design_1_wrapper design_1_w_i(/*autoinst*/
     .DDR_addr                   (DDR_addr[14:0]                 ), // inout
     .DDR_ba                     (DDR_ba[2:0]                    ), // inout
     .DDR_cas_n                  (DDR_cas_n                      ), // inout

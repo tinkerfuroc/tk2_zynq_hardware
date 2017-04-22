@@ -1,0 +1,89 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.5b  2016-09-06 bk=1.3687 VDI=39 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port DIR_5 -pg 1 -y 1780 -defaultsOSRD
+preplace port PULSE_5 -pg 1 -y 1740 -defaultsOSRD
+preplace port uart_rtl_1 -pg 1 -y 490 -defaultsOSRD
+preplace port DDR -pg 1 -y 60 -defaultsOSRD
+preplace port uart_rtl_2 -pg 1 -y 650 -defaultsOSRD
+preplace port GPIO_0 -pg 1 -y 40 -defaultsOSRD
+preplace port EN_1 -pg 1 -y 780 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 80 -defaultsOSRD
+preplace port EN_2 -pg 1 -y 920 -defaultsOSRD
+preplace port DIR_1 -pg 1 -y 800 -defaultsOSRD
+preplace port PULSE_1 -pg 1 -y 760 -defaultsOSRD
+preplace port pwm_1 -pg 1 -y 1340 -defaultsOSRD
+preplace port pwm -pg 1 -y 1200 -defaultsOSRD
+preplace port EN_3 -pg 1 -y 1060 -defaultsOSRD
+preplace port DIR_2 -pg 1 -y 940 -defaultsOSRD
+preplace port PULSE_2 -pg 1 -y 900 -defaultsOSRD
+preplace port pwm_2 -pg 1 -y 1620 -defaultsOSRD
+preplace port EN_4 -pg 1 -y 1480 -defaultsOSRD
+preplace port DIR_3 -pg 1 -y 1080 -defaultsOSRD
+preplace port PULSE_3 -pg 1 -y 1040 -defaultsOSRD
+preplace port EN_5 -pg 1 -y 1760 -defaultsOSRD
+preplace port DIR_4 -pg 1 -y 1500 -defaultsOSRD
+preplace port PULSE_4 -pg 1 -y 1460 -defaultsOSRD
+preplace port uart_rtl_0 -pg 1 -y 350 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 2 -y 360 -defaultsOSRD
+preplace inst rst_processing_system7_0_50M -pg 1 -lvl 1 -y 730 -defaultsOSRD
+preplace inst pulse_1 -pg 1 -lvl 3 -y 790 -defaultsOSRD
+preplace inst pulse_2 -pg 1 -lvl 3 -y 930 -defaultsOSRD
+preplace inst pulse_3 -pg 1 -lvl 3 -y 1070 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 3 -y 360 -defaultsOSRD
+preplace inst pwm_0 -pg 1 -lvl 3 -y 1210 -defaultsOSRD
+preplace inst pulse_4 -pg 1 -lvl 3 -y 1490 -defaultsOSRD
+preplace inst axi_uartlite_1 -pg 1 -lvl 3 -y 500 -defaultsOSRD
+preplace inst pulse_5 -pg 1 -lvl 3 -y 1770 -defaultsOSRD
+preplace inst pwm_1 -pg 1 -lvl 3 -y 1350 -defaultsOSRD
+preplace inst axi_uartlite_2 -pg 1 -lvl 3 -y 660 -defaultsOSRD
+preplace inst pwm_2 -pg 1 -lvl 3 -y 1630 -defaultsOSRD
+preplace inst processing_system7_0_axi_periph -pg 1 -lvl 2 -y 970 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 3 -y 130 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 3 1 NJ
+preplace netloc processing_system7_0_axi_periph_M09_AXI 1 2 1 720
+preplace netloc axi_uartlite_2_interrupt 1 1 3 370 580 NJ 580 1130
+preplace netloc pulse_4_EN 1 3 1 1140J
+preplace netloc axi_uartlite_1_interrupt 1 1 3 360 570 NJ 570 1130
+preplace netloc processing_system7_0_axi_periph_M08_AXI 1 2 1 670
+preplace netloc processing_system7_0_axi_periph_M03_AXI 1 2 1 690
+preplace netloc processing_system7_0_axi_periph_M00_AXI 1 2 1 730
+preplace netloc axi_uartlite_0_interrupt 1 1 3 350 430 NJ 430 1130
+preplace netloc rst_processing_system7_0_50M_interconnect_aresetn 1 1 1 N
+preplace netloc pulse_3_DIR 1 3 1 1140J
+preplace netloc pulse_3_PULSE 1 3 1 1140J
+preplace netloc axi_uartlite_1_UART 1 3 1 NJ
+preplace netloc processing_system7_0_axi_periph_M07_AXI 1 2 1 650
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 3 340 270 NJ 270 1140
+preplace netloc pulse_1_DIR 1 3 1 1140J
+preplace netloc processing_system7_0_axi_periph_M05_AXI 1 2 1 680
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 4 -10 280 NJ 280 NJ 280 1130
+preplace netloc axi_uartlite_2_UART 1 3 1 NJ
+preplace netloc pulse_5_EN 1 3 1 1140J
+preplace netloc pulse_5_PULSE 1 3 1 1140J
+preplace netloc pwm_2_pwm 1 3 1 1140J
+preplace netloc pulse_4_DIR 1 3 1 1140J
+preplace netloc rst_processing_system7_0_50M_peripheral_aresetn 1 1 2 320 520 740
+preplace netloc processing_system7_0_axi_periph_M02_AXI 1 2 1 760
+preplace netloc pulse_4_PULSE 1 3 1 1140J
+preplace netloc processing_system7_0_axi_periph_M06_AXI 1 2 1 660
+preplace netloc xlconcat_0_dout 1 2 1 650
+preplace netloc pwm_0_pwm 1 3 1 1140J
+preplace netloc pulse_2_EN 1 3 1 1140J
+preplace netloc pulse_2_PULSE 1 3 1 1140J
+preplace netloc pulse_1_PULSE 1 3 1 1140J
+preplace netloc processing_system7_0_FIXED_IO 1 3 1 NJ
+preplace netloc pulse_5_DIR 1 3 1 1140J
+preplace netloc axi_uartlite_0_UART 1 3 1 NJ
+preplace netloc processing_system7_0_axi_periph_M10_AXI 1 2 1 750
+preplace netloc pulse_2_DIR 1 3 1 1140J
+preplace netloc processing_system7_0_GPIO_0 1 3 1 NJ
+preplace netloc pwm_1_pwm 1 3 1 1140J
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 0 500 330 500 700 290 1150
+preplace netloc pulse_3_EN 1 3 1 1140J
+preplace netloc processing_system7_0_axi_periph_M04_AXI 1 2 1 710
+preplace netloc processing_system7_0_axi_periph_M01_AXI 1 2 1 760
+preplace netloc pulse_1_EN 1 3 1 1140J
+levelinfo -pg 1 -30 160 510 950 1170 -top -10 -bot 1910
+",
+}

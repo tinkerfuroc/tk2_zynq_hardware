@@ -1,0 +1,836 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (lin64) Build 1733598 Wed Dec 14 22:35:42 MST 2016
+| Date         : Sat Apr 22 16:35:10 2017
+| Host         : skyworks running 64-bit Ubuntu 16.04.2 LTS
+| Command      : report_drc -file tk3_top_drc_routed.rpt -pb tk3_top_drc_routed.pb -rpx tk3_top_drc_routed.rpx
+| Design       : tk3_top
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 160
++----------+----------+-------------------+------------+
+| Rule     | Severity | Description       | Violations |
++----------+----------+-------------------+------------+
+| PDRC-153 | Warning  | Gated clock check | 160        |
++----------+----------+-------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+PDRC-153#1 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[0]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[0]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[0]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#2 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[10]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[10]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[10]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#3 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[11]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[11]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[11]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#4 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[12]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[12]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[12]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#5 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[13]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[13]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[13]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#6 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[14]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[14]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[14]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#7 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[15]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[15]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[15]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#8 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[16]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[16]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[16]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#9 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[17]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[17]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[17]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#10 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[18]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[18]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[18]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#11 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[19]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[19]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[19]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#12 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[1]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[1]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[1]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#13 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[20]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[20]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[20]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#14 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[21]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[21]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[21]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#15 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[22]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[22]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[22]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#16 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[23]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[23]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[23]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#17 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[24]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[24]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[24]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#18 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[25]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[25]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[25]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#19 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[26]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[26]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[26]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#20 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[27]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[27]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[27]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#21 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[28]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[28]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[28]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#22 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[29]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[29]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[29]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#23 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[2]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[2]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[2]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#24 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[30]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[30]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[30]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#25 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[31]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[31]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[31]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#26 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[3]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[3]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[3]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#27 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[4]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[4]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[4]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#28 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[5]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[5]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[5]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#29 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[6]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[6]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[6]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#30 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[7]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[7]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[7]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#31 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[8]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[8]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[8]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#32 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[9]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[9]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[9]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#33 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[0]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[0]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[0]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#34 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[10]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[10]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[10]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#35 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[11]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[11]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[11]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#36 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[12]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[12]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[12]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#37 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[13]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[13]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[13]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#38 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[14]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[14]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[14]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#39 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[15]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[15]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[15]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#40 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[16]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[16]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[16]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#41 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[17]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[17]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[17]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#42 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[18]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[18]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[18]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#43 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[19]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[19]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[19]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#44 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[1]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[1]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[1]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#45 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[20]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[20]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[20]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#46 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[21]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[21]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[21]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#47 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[22]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[22]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[22]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#48 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[23]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[23]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[23]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#49 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[24]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[24]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[24]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#50 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[25]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[25]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[25]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#51 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[26]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[26]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[26]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#52 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[27]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[27]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[27]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#53 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[28]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[28]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[28]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#54 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[29]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[29]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[29]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#55 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[2]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[2]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[2]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#56 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[30]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[30]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[30]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#57 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[31]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[31]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[31]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#58 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[3]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[3]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[3]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#59 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[4]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[4]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[4]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#60 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[5]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[5]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[5]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#61 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[6]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[6]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[6]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#62 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[7]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[7]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[7]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#63 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[8]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[8]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[8]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#64 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[9]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[9]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[9]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#65 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[0]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[0]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[0]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#66 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[10]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[10]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[10]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#67 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[11]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[11]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[11]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#68 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[12]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[12]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[12]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#69 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[13]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[13]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[13]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#70 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[14]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[14]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[14]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#71 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[15]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[15]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[15]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#72 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[16]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[16]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[16]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#73 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[17]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[17]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[17]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#74 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[18]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[18]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[18]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#75 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[19]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[19]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[19]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#76 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[1]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[1]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[1]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#77 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[20]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[20]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[20]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#78 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[21]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[21]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[21]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#79 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[22]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[22]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[22]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#80 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[23]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[23]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[23]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#81 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[24]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[24]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[24]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#82 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[25]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[25]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[25]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#83 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[26]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[26]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[26]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#84 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[27]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[27]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[27]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#85 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[28]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[28]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[28]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#86 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[29]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[29]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[29]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#87 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[2]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[2]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[2]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#88 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[30]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[30]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[30]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#89 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[31]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[31]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[31]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#90 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[3]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[3]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[3]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#91 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[4]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[4]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[4]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#92 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[5]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[5]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[5]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#93 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[6]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[6]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[6]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#94 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[7]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[7]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[7]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#95 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[8]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[8]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[8]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#96 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[9]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[9]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[9]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#97 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[0]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[0]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[0]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#98 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[10]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[10]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[10]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#99 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[11]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[11]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[11]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#100 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[12]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[12]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[12]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#101 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[13]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[13]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[13]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#102 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[14]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[14]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[14]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#103 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[15]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[15]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[15]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#104 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[16]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[16]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[16]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#105 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[17]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[17]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[17]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#106 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[18]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[18]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[18]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#107 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[19]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[19]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[19]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#108 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[1]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[1]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[1]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#109 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[20]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[20]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[20]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#110 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[21]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[21]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[21]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#111 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[22]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[22]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[22]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#112 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[23]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[23]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[23]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#113 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[24]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[24]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[24]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#114 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[25]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[25]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[25]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#115 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[26]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[26]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[26]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#116 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[27]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[27]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[27]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#117 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[28]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[28]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[28]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#118 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[29]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[29]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[29]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#119 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[2]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[2]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[2]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#120 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[30]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[30]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[30]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#121 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[31]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[31]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[31]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#122 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[3]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[3]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[3]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#123 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[4]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[4]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[4]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#124 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[5]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[5]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[5]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#125 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[6]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[6]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[6]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#126 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[7]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[7]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[7]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#127 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[8]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[8]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[8]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#128 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[9]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[9]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[9]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#129 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[0]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[0]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[0]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#130 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[10]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[10]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[10]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#131 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[11]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[11]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[11]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#132 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[12]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[12]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[12]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#133 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[13]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[13]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[13]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#134 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[14]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[14]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[14]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#135 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[15]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[15]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[15]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#136 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[16]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[16]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[16]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#137 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[17]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[17]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[17]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#138 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[18]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[18]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[18]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#139 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[19]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[19]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[19]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#140 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[1]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[1]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[1]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#141 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[20]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[20]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[20]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#142 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[21]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[21]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[21]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#143 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[22]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[22]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[22]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#144 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[23]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[23]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[23]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#145 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[24]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[24]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[24]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#146 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[25]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[25]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[25]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#147 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[26]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[26]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[26]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#148 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[27]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[27]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[27]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#149 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[28]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[28]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[28]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#150 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[29]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[29]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[29]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#151 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[2]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[2]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[2]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#152 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[30]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[30]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[30]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#153 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[31]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[31]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[31]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#154 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[3]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[3]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[3]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#155 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[4]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[4]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[4]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#156 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[5]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[5]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[5]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#157 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[6]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[6]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[6]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#158 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[7]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[7]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[7]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#159 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[8]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[8]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[8]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#160 Warning
+Gated clock check  
+Net design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[9]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[9]_LDC_i_1/O, cell design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_pulse_cnt_reg[9]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+
