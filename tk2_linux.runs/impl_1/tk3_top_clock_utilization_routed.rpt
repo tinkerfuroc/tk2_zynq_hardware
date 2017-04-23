@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.4 (lin64) Build 1733598 Wed Dec 14 22:35:42 MST 2016
-| Date         : Sat Apr 22 16:35:14 2017
+| Date         : Sun Apr 23 13:56:49 2017
 | Host         : skyworks running 64-bit Ubuntu 16.04.2 LTS
 | Command      : report_clock_utilization -file tk3_top_clock_utilization_routed.rpt
 | Design       : tk3_top
@@ -19,22 +19,21 @@ Table of Contents
 4. Clock Regions: Key Resource Utilization
 5. Clock Regions : Global Clock Summary
 6. Cell Type Counts per Global Clock: Region X0Y0
-7. Cell Type Counts per Global Clock: Region X1Y0
-8. Cell Type Counts per Global Clock: Region X0Y1
-9. Cell Type Counts per Global Clock: Region X1Y1
-10. Cell Type Counts per Global Clock: Region X0Y2
-11. Cell Type Counts per Global Clock: Region X1Y2
-12. Load Cell Placement Summary for Global Clock g0
-13. Load Cell Placement Summary for Global Clock g1
-14. Load Cell Placement Summary for Global Clock g2
-15. Load Cell Placement Summary for Global Clock g3
-16. Load Cell Placement Summary for Global Clock g4
-17. Load Cell Placement Summary for Global Clock g5
-18. Load Cell Placement Summary for Global Clock g6
-19. Load Cell Placement Summary for Global Clock g7
-20. Load Cell Placement Summary for Global Clock g8
-21. Load Cell Placement Summary for Global Clock g9
-22. Load Cell Placement Summary for Global Clock g10
+7. Cell Type Counts per Global Clock: Region X0Y1
+8. Cell Type Counts per Global Clock: Region X1Y1
+9. Cell Type Counts per Global Clock: Region X0Y2
+10. Cell Type Counts per Global Clock: Region X1Y2
+11. Load Cell Placement Summary for Global Clock g0
+12. Load Cell Placement Summary for Global Clock g1
+13. Load Cell Placement Summary for Global Clock g2
+14. Load Cell Placement Summary for Global Clock g3
+15. Load Cell Placement Summary for Global Clock g4
+16. Load Cell Placement Summary for Global Clock g5
+17. Load Cell Placement Summary for Global Clock g6
+18. Load Cell Placement Summary for Global Clock g7
+19. Load Cell Placement Summary for Global Clock g8
+20. Load Cell Placement Summary for Global Clock g9
+21. Load Cell Placement Summary for Global Clock g10
 
 1. Clock Primitive Utilization
 ------------------------------
@@ -58,17 +57,17 @@ Table of Contents
 +-----------+-----------+-----------------+------------+----------------+--------------+------+-------------------+-------------------+-------------+-----------------+--------------+------------+---------------------------------------------------------------------------------------+-------------------------------------------------------------+
 | Global Id | Source Id | Driver Type/Pin | Constraint | Site           | Clock Region | Root | Clock Delay Group | Load Clock Region | Clock Loads | Non-Clock Loads | Clock Period | Clock      | Driver Pin                                                                            | Net                                                         |
 +-----------+-----------+-----------------+------------+----------------+--------------+------+-------------------+-------------------+-------------+-----------------+--------------+------------+---------------------------------------------------------------------------------------+-------------------------------------------------------------+
-| g0        | src0      | BUFG/O          | None       | BUFGCTRL_X0Y16 | n/a          |      |                   |                 5 |        2278 |               0 |       20.000 | clk_fpga_0 | design_1_w_i/design_1_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O | design_1_w_i/design_1_i/processing_system7_0/inst/FCLK_CLK0 |
-| g1        | src1      | BUFG/O          | None       | BUFGCTRL_X0Y4  | n/a          |      |                   |                 2 |          64 |               0 |              |            | design_1_w_i/design_1_i/pulse_1/r_clk_div_out_BUFG_inst/O                             | design_1_w_i/design_1_i/pulse_1/r_clk_div_out_BUFG          |
-| g2        | src2      | BUFG/O          | None       | BUFGCTRL_X0Y5  | n/a          |      |                   |                 3 |          64 |               0 |              |            | design_1_w_i/design_1_i/pulse_2/r_clk_div_out_BUFG_inst/O                             | design_1_w_i/design_1_i/pulse_2/r_clk_div_out_BUFG          |
-| g3        | src3      | BUFG/O          | None       | BUFGCTRL_X0Y6  | n/a          |      |                   |                 2 |          64 |               0 |              |            | design_1_w_i/design_1_i/pulse_3/r_clk_div_out_BUFG_inst/O                             | design_1_w_i/design_1_i/pulse_3/r_clk_div_out_BUFG          |
-| g4        | src4      | BUFG/O          | None       | BUFGCTRL_X0Y7  | n/a          |      |                   |                 1 |          64 |               0 |              |            | design_1_w_i/design_1_i/pulse_4/r_clk_div_out_BUFG_inst/O                             | design_1_w_i/design_1_i/pulse_4/r_clk_div_out_BUFG          |
-| g5        | src5      | BUFG/O          | None       | BUFGCTRL_X0Y8  | n/a          |      |                   |                 1 |          64 |               0 |              |            | design_1_w_i/design_1_i/pulse_5/r_clk_div_out_BUFG_inst/O                             | design_1_w_i/design_1_i/pulse_5/r_clk_div_out_BUFG          |
+| g0        | src0      | BUFG/O          | None       | BUFGCTRL_X0Y16 | n/a          |      |                   |                 5 |        2279 |               0 |       20.000 | clk_fpga_0 | design_1_w_i/design_1_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG/O | design_1_w_i/design_1_i/processing_system7_0/inst/FCLK_CLK0 |
+| g1        | src1      | BUFG/O          | None       | BUFGCTRL_X0Y5  | n/a          |      |                   |                 1 |          64 |               0 |              |            | design_1_w_i/design_1_i/pulse_1/r_clk_div_out_BUFG_inst/O                             | design_1_w_i/design_1_i/pulse_1/r_clk_div_out_BUFG          |
+| g2        | src2      | BUFG/O          | None       | BUFGCTRL_X0Y6  | n/a          |      |                   |                 1 |          64 |               0 |              |            | design_1_w_i/design_1_i/pulse_2/r_clk_div_out_BUFG_inst/O                             | design_1_w_i/design_1_i/pulse_2/r_clk_div_out_BUFG          |
+| g3        | src3      | BUFG/O          | None       | BUFGCTRL_X0Y7  | n/a          |      |                   |                 1 |          64 |               0 |              |            | design_1_w_i/design_1_i/pulse_3/r_clk_div_out_BUFG_inst/O                             | design_1_w_i/design_1_i/pulse_3/r_clk_div_out_BUFG          |
+| g4        | src4      | BUFG/O          | None       | BUFGCTRL_X0Y8  | n/a          |      |                   |                 1 |          64 |               0 |              |            | design_1_w_i/design_1_i/pulse_4/r_clk_div_out_BUFG_inst/O                             | design_1_w_i/design_1_i/pulse_4/r_clk_div_out_BUFG          |
+| g5        | src5      | BUFG/O          | None       | BUFGCTRL_X0Y9  | n/a          |      |                   |                 1 |          64 |               0 |              |            | design_1_w_i/design_1_i/pulse_5/r_clk_div_out_BUFG_inst/O                             | design_1_w_i/design_1_i/pulse_5/r_clk_div_out_BUFG          |
 | g6        | src6      | BUFG/O          | None       | BUFGCTRL_X0Y0  | n/a          |      |                   |                 3 |          32 |               2 |              |            | design_1_w_i/design_1_i/pulse_1/PULSE_BUFG_inst/O                                     | design_1_w_i/design_1_i/pulse_1/PULSE                       |
 | g7        | src7      | BUFG/O          | None       | BUFGCTRL_X0Y1  | n/a          |      |                   |                 2 |          32 |               2 |              |            | design_1_w_i/design_1_i/pulse_2/PULSE_BUFG_inst/O                                     | design_1_w_i/design_1_i/pulse_2/PULSE                       |
-| g8        | src8      | BUFG/O          | None       | BUFGCTRL_X0Y2  | n/a          |      |                   |                 2 |          32 |               2 |              |            | design_1_w_i/design_1_i/pulse_3/PULSE_BUFG_inst/O                                     | design_1_w_i/design_1_i/pulse_3/PULSE                       |
+| g8        | src8      | BUFG/O          | None       | BUFGCTRL_X0Y2  | n/a          |      |                   |                 3 |          32 |               2 |              |            | design_1_w_i/design_1_i/pulse_3/PULSE_BUFG_inst/O                                     | design_1_w_i/design_1_i/pulse_3/PULSE                       |
 | g9        | src9      | BUFG/O          | None       | BUFGCTRL_X0Y3  | n/a          |      |                   |                 2 |          32 |               2 |              |            | design_1_w_i/design_1_i/pulse_4/PULSE_BUFG_inst/O                                     | design_1_w_i/design_1_i/pulse_4/PULSE                       |
-| g10       | src10     | BUFG/O          | None       | BUFGCTRL_X0Y9  | n/a          |      |                   |                 2 |          32 |               1 |              |            | design_1_w_i/design_1_i/pulse_5/PULSE_BUFG_inst/O                                     | design_1_w_i/design_1_i/pulse_5/PULSE                       |
+| g10       | src10     | BUFG/O          | None       | BUFGCTRL_X0Y4  | n/a          |      |                   |                 3 |          32 |               2 |              |            | design_1_w_i/design_1_i/pulse_5/PULSE_BUFG_inst/O                                     | design_1_w_i/design_1_i/pulse_5/PULSE                       |
 +-----------+-----------+-----------------+------------+----------------+--------------+------+-------------------+-------------------+-------------+-----------------+--------------+------------+---------------------------------------------------------------------------------------+-------------------------------------------------------------+
 * Clock Loads column represents the clock pin loads (pin count)
 ** Non-Clock Loads column represents the non-clock pin loads (pin count)
@@ -82,14 +81,14 @@ Table of Contents
 +-----------+-----------+-----------------+------------+--------------+--------------+-------------+-----------------+---------------------+--------------+------------------------------------------------------------------------------------+----------------------------------------------------------------------------+
 | src0      | g0        | PS7/FCLKCLK[0]  | PS7_X0Y0   | PS7_X0Y0     | X0Y2         |           1 |               0 |              20.000 | clk_fpga_0   | design_1_w_i/design_1_i/processing_system7_0/inst/PS7_i/FCLKCLK[0]                 | design_1_w_i/design_1_i/processing_system7_0/inst/FCLK_CLK_unbuffered[0]   |
 | src1      | g1        | FDRE/Q          | None       | SLICE_X49Y46 | X0Y0         |           1 |               1 |                     |              | design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_clk_div_out_reg/Q   | design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/r_clk_div_out |
-| src2      | g2        | FDRE/Q          | None       | SLICE_X45Y49 | X0Y0         |           1 |               1 |                     |              | design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_clk_div_out_reg/Q   | design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_clk_div_out |
-| src3      | g3        | FDRE/Q          | None       | SLICE_X37Y47 | X0Y0         |           1 |               1 |                     |              | design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_clk_div_out_reg/Q   | design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_clk_div_out |
-| src4      | g4        | FDRE/Q          | None       | SLICE_X48Y46 | X0Y0         |           1 |               1 |                     |              | design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_clk_div_out_reg/Q   | design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_clk_div_out |
-| src5      | g5        | FDRE/Q          | None       | SLICE_X49Y46 | X0Y0         |           1 |               1 |                     |              | design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_clk_div_out_reg/Q   | design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_clk_div_out |
+| src2      | g2        | FDRE/Q          | None       | SLICE_X37Y47 | X0Y0         |           1 |               1 |                     |              | design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_clk_div_out_reg/Q   | design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/r_clk_div_out |
+| src3      | g3        | FDRE/Q          | None       | SLICE_X49Y46 | X0Y0         |           1 |               1 |                     |              | design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_clk_div_out_reg/Q   | design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/r_clk_div_out |
+| src4      | g4        | FDRE/Q          | None       | SLICE_X49Y46 | X0Y0         |           1 |               1 |                     |              | design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_clk_div_out_reg/Q   | design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/r_clk_div_out |
+| src5      | g5        | FDRE/Q          | None       | SLICE_X43Y47 | X0Y0         |           1 |               1 |                     |              | design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_clk_div_out_reg/Q   | design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/r_clk_div_out |
 | src6      | g6        | LUT3/O          | None       | SLICE_X49Y47 | X0Y0         |           1 |               1 |                     |              | design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/PULSE_BUFG_inst_i_1/O | design_1_w_i/design_1_i/pulse_1/inst/pulse_v1_0_S00_AXI_inst/PULSE         |
-| src7      | g7        | LUT3/O          | None       | SLICE_X50Y46 | X1Y0         |           1 |               1 |                     |              | design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/PULSE_BUFG_inst_i_1/O | design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/PULSE         |
-| src8      | g8        | LUT3/O          | None       | SLICE_X49Y47 | X0Y0         |           1 |               1 |                     |              | design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/PULSE_BUFG_inst_i_1/O | design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/PULSE         |
-| src9      | g9        | LUT3/O          | None       | SLICE_X49Y47 | X0Y0         |           1 |               1 |                     |              | design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/PULSE_BUFG_inst_i_1/O | design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/PULSE         |
+| src7      | g7        | LUT3/O          | None       | SLICE_X49Y47 | X0Y0         |           1 |               1 |                     |              | design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/PULSE_BUFG_inst_i_1/O | design_1_w_i/design_1_i/pulse_2/inst/pulse_v1_0_S00_AXI_inst/PULSE         |
+| src8      | g8        | LUT3/O          | None       | SLICE_X50Y47 | X1Y0         |           1 |               1 |                     |              | design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/PULSE_BUFG_inst_i_1/O | design_1_w_i/design_1_i/pulse_3/inst/pulse_v1_0_S00_AXI_inst/PULSE         |
+| src9      | g9        | LUT3/O          | None       | SLICE_X50Y47 | X1Y0         |           1 |               1 |                     |              | design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/PULSE_BUFG_inst_i_1/O | design_1_w_i/design_1_i/pulse_4/inst/pulse_v1_0_S00_AXI_inst/PULSE         |
 | src10     | g10       | LUT3/O          | None       | SLICE_X49Y47 | X0Y0         |           1 |               1 |                     |              | design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/PULSE_BUFG_inst_i_1/O | design_1_w_i/design_1_i/pulse_5/inst/pulse_v1_0_S00_AXI_inst/PULSE         |
 +-----------+-----------+-----------------+------------+--------------+--------------+-------------+-----------------+---------------------+--------------+------------------------------------------------------------------------------------+----------------------------------------------------------------------------+
 * Clock Loads column represents the clock pin loads (pin count)
@@ -104,12 +103,12 @@ Table of Contents
 +-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
 | Clock Region Name | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail |
 +-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
-| X0Y0              |    5 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |   10 |  2500 |    3 |  1000 |    0 |    60 |    0 |    30 |    0 |    60 |
-| X1Y0              |    1 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    1 |  3200 |    1 |   850 |    0 |    60 |    0 |    30 |    0 |    40 |
-| X0Y1              |   11 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 | 1706 |  1200 |  622 |   400 |    0 |    20 |    0 |    10 |    0 |    20 |
-| X1Y1              |    4 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |  161 |  2600 |   59 |   850 |    0 |    60 |    0 |    30 |    0 |    40 |
-| X0Y2              |    2 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |  606 |  1200 |  220 |   400 |    0 |    20 |    0 |    10 |    0 |    20 |
-| X1Y2              |    2 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |  169 |  2600 |   63 |   850 |    0 |    60 |    0 |    30 |    0 |    40 |
+| X0Y0              |    3 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    5 |  2500 |    0 |  1000 |    0 |    60 |    0 |    30 |    0 |    60 |
+| X1Y0              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    0 |  3200 |    0 |   850 |    0 |    60 |    0 |    30 |    0 |    40 |
+| X0Y1              |   10 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 | 1581 |  1200 |  576 |   400 |    0 |    20 |    0 |    10 |    0 |    20 |
+| X1Y1              |    5 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |   75 |  2600 |   30 |   850 |    0 |    60 |    0 |    30 |    0 |    40 |
+| X0Y2              |    3 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |  966 |  1200 |  371 |   400 |    0 |    20 |    0 |    10 |    0 |    20 |
+| X1Y2              |    2 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |   27 |  2600 |   24 |   850 |    0 |    60 |    0 |    30 |    0 |    40 |
 +-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
 * Global Clock column represents track count; while other columns represents cell counts
 
@@ -120,9 +119,9 @@ Table of Contents
 +----+----+----+
 |    | X0 | X1 |
 +----+----+----+
-| Y2 |  2 |  2 |
-| Y1 | 11 |  4 |
-| Y0 |  5 |  1 |
+| Y2 |  3 |  2 |
+| Y1 | 10 |  5 |
+| Y0 |  3 |  0 |
 +----+----+----+
 
 
@@ -133,8 +132,6 @@ Table of Contents
 | Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF | LUTRAM | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                                         |
 +-----------+-------+-----------------+------------+-------------+-----------------+----+--------+------+-----+----+------+-----+---------+-------------------------------------------------------------+
 | g0        | n/a   | BUFG/O          | None       |           5 |               0 |  5 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/processing_system7_0/inst/FCLK_CLK0 |
-| g1        | n/a   | BUFG/O          | None       |           1 |               0 |  1 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/pulse_1/r_clk_div_out_BUFG          |
-| g3        | n/a   | BUFG/O          | None       |           4 |               0 |  4 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/pulse_3/r_clk_div_out_BUFG          |
 | g6        | n/a   | BUFG/O          | None       |           0 |               1 |  0 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/pulse_1/PULSE                       |
 | g8        | n/a   | BUFG/O          | None       |           0 |               1 |  0 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/pulse_3/PULSE                       |
 +-----------+-------+-----------------+------------+-------------+-----------------+----+--------+------+-----+----+------+-----+---------+-------------------------------------------------------------+
@@ -143,93 +140,81 @@ Table of Contents
 *** Columns FF, LUTRAM, RAMB through 'Hard IP' represents load cell counts
 
 
-7. Cell Type Counts per Global Clock: Region X1Y0
--------------------------------------------------
-
-+-----------+-------+-----------------+------------+-------------+-----------------+----+--------+------+-----+----+------+-----+---------+----------------------------------------------------+
-| Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF | LUTRAM | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                                |
-+-----------+-------+-----------------+------------+-------------+-----------------+----+--------+------+-----+----+------+-----+---------+----------------------------------------------------+
-| g2        | n/a   | BUFG/O          | None       |           1 |               0 |  1 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/pulse_2/r_clk_div_out_BUFG |
-+-----------+-------+-----------------+------------+-------------+-----------------+----+--------+------+-----+----+------+-----+---------+----------------------------------------------------+
-* Clock Loads column represents the clock pin loads (pin count)
-** Non-Clock Loads column represents the non-clock pin loads (pin count)
-*** Columns FF, LUTRAM, RAMB through 'Hard IP' represents load cell counts
-
-
-8. Cell Type Counts per Global Clock: Region X0Y1
+7. Cell Type Counts per Global Clock: Region X0Y1
 -------------------------------------------------
 
 +-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+-------------------------------------------------------------+
 | Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF   | LUTRAM | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                                         |
 +-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+-------------------------------------------------------------+
-| g0        | n/a   | BUFG/O          | None       |        1393 |               0 | 1346 |     47 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/processing_system7_0/inst/FCLK_CLK0 |
-| g1        | n/a   | BUFG/O          | None       |          63 |               0 |   63 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/pulse_1/r_clk_div_out_BUFG          |
-| g2        | n/a   | BUFG/O          | None       |           9 |               0 |    9 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/pulse_2/r_clk_div_out_BUFG          |
-| g3        | n/a   | BUFG/O          | None       |          60 |               0 |   60 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/pulse_3/r_clk_div_out_BUFG          |
+| g0        | n/a   | BUFG/O          | None       |        1280 |               0 | 1229 |     51 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/processing_system7_0/inst/FCLK_CLK0 |
+| g1        | n/a   | BUFG/O          | None       |          64 |               0 |   64 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/pulse_1/r_clk_div_out_BUFG          |
+| g2        | n/a   | BUFG/O          | None       |          64 |               0 |   64 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/pulse_2/r_clk_div_out_BUFG          |
 | g4        | n/a   | BUFG/O          | None       |          64 |               0 |   64 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/pulse_4/r_clk_div_out_BUFG          |
 | g5        | n/a   | BUFG/O          | None       |          64 |               0 |   64 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/pulse_5/r_clk_div_out_BUFG          |
 | g6        | n/a   | BUFG/O          | None       |           0 |               1 |    0 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/pulse_1/PULSE                       |
-| g7        | n/a   | BUFG/O          | None       |          32 |               0 |   32 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/pulse_2/PULSE                       |
-| g8        | n/a   | BUFG/O          | None       |          32 |               1 |   32 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/pulse_3/PULSE                       |
+| g7        | n/a   | BUFG/O          | None       |          32 |               1 |   32 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/pulse_2/PULSE                       |
+| g8        | n/a   | BUFG/O          | None       |          32 |               0 |   32 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/pulse_3/PULSE                       |
 | g9        | n/a   | BUFG/O          | None       |          32 |               1 |   32 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/pulse_4/PULSE                       |
-| g10       | n/a   | BUFG/O          | None       |           4 |               1 |    4 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/pulse_5/PULSE                       |
+| g10       | n/a   | BUFG/O          | None       |           0 |               1 |    0 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/pulse_5/PULSE                       |
 +-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+-------------------------------------------------------------+
 * Clock Loads column represents the clock pin loads (pin count)
 ** Non-Clock Loads column represents the non-clock pin loads (pin count)
 *** Columns FF, LUTRAM, RAMB through 'Hard IP' represents load cell counts
 
 
-9. Cell Type Counts per Global Clock: Region X1Y1
+8. Cell Type Counts per Global Clock: Region X1Y1
+-------------------------------------------------
+
++-----------+-------+-----------------+------------+-------------+-----------------+----+--------+------+-----+----+------+-----+---------+-------------------------------------------------------------+
+| Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF | LUTRAM | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                                         |
++-----------+-------+-----------------+------------+-------------+-----------------+----+--------+------+-----+----+------+-----+---------+-------------------------------------------------------------+
+| g0        | n/a   | BUFG/O          | None       |          11 |               0 | 11 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/processing_system7_0/inst/FCLK_CLK0 |
+| g3        | n/a   | BUFG/O          | None       |          64 |               0 | 64 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/pulse_3/r_clk_div_out_BUFG          |
+| g7        | n/a   | BUFG/O          | None       |           0 |               1 |  0 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/pulse_2/PULSE                       |
+| g8        | n/a   | BUFG/O          | None       |           0 |               1 |  0 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/pulse_3/PULSE                       |
+| g9        | n/a   | BUFG/O          | None       |           0 |               1 |  0 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/pulse_4/PULSE                       |
++-----------+-------+-----------------+------------+-------------+-----------------+----+--------+------+-----+----+------+-----+---------+-------------------------------------------------------------+
+* Clock Loads column represents the clock pin loads (pin count)
+** Non-Clock Loads column represents the non-clock pin loads (pin count)
+*** Columns FF, LUTRAM, RAMB through 'Hard IP' represents load cell counts
+
+
+9. Cell Type Counts per Global Clock: Region X0Y2
 -------------------------------------------------
 
 +-----------+-------+-----------------+------------+-------------+-----------------+-----+--------+------+-----+----+------+-----+---------+-------------------------------------------------------------+
 | Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF  | LUTRAM | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                                         |
 +-----------+-------+-----------------+------------+-------------+-----------------+-----+--------+------+-----+----+------+-----+---------+-------------------------------------------------------------+
-| g0        | n/a   | BUFG/O          | None       |         125 |               0 | 107 |     18 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/processing_system7_0/inst/FCLK_CLK0 |
-| g2        | n/a   | BUFG/O          | None       |          54 |               0 |  54 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/pulse_2/r_clk_div_out_BUFG          |
-| g7        | n/a   | BUFG/O          | None       |           0 |               2 |   0 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/pulse_2/PULSE                       |
-| g9        | n/a   | BUFG/O          | None       |           0 |               1 |   0 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/pulse_4/PULSE                       |
-+-----------+-------+-----------------+------------+-------------+-----------------+-----+--------+------+-----+----+------+-----+---------+-------------------------------------------------------------+
-* Clock Loads column represents the clock pin loads (pin count)
-** Non-Clock Loads column represents the non-clock pin loads (pin count)
-*** Columns FF, LUTRAM, RAMB through 'Hard IP' represents load cell counts
-
-
-10. Cell Type Counts per Global Clock: Region X0Y2
---------------------------------------------------
-
-+-----------+-------+-----------------+------------+-------------+-----------------+-----+--------+------+-----+----+------+-----+---------+-------------------------------------------------------------+
-| Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF  | LUTRAM | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                                         |
-+-----------+-------+-----------------+------------+-------------+-----------------+-----+--------+------+-----+----+------+-----+---------+-------------------------------------------------------------+
-| g0        | n/a   | BUFG/O          | None       |         598 |               0 | 578 |     19 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/processing_system7_0/inst/FCLK_CLK0 |
-| g10       | n/a   | BUFG/O          | None       |          28 |               0 |  28 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/pulse_5/PULSE                       |
-+-----------+-------+-----------------+------------+-------------+-----------------+-----+--------+------+-----+----+------+-----+---------+-------------------------------------------------------------+
-* Clock Loads column represents the clock pin loads (pin count)
-** Non-Clock Loads column represents the non-clock pin loads (pin count)
-*** Columns FF, LUTRAM, RAMB through 'Hard IP' represents load cell counts
-
-
-11. Cell Type Counts per Global Clock: Region X1Y2
---------------------------------------------------
-
-+-----------+-------+-----------------+------------+-------------+-----------------+-----+--------+------+-----+----+------+-----+---------+-------------------------------------------------------------+
-| Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF  | LUTRAM | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                                         |
-+-----------+-------+-----------------+------------+-------------+-----------------+-----+--------+------+-----+----+------+-----+---------+-------------------------------------------------------------+
-| g0        | n/a   | BUFG/O          | None       |         157 |               0 | 137 |     20 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/processing_system7_0/inst/FCLK_CLK0 |
+| g0        | n/a   | BUFG/O          | None       |         954 |               0 | 902 |     51 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/processing_system7_0/inst/FCLK_CLK0 |
 | g6        | n/a   | BUFG/O          | None       |          32 |               0 |  32 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/pulse_1/PULSE                       |
+| g10       | n/a   | BUFG/O          | None       |          32 |               0 |  32 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/pulse_5/PULSE                       |
 +-----------+-------+-----------------+------------+-------------+-----------------+-----+--------+------+-----+----+------+-----+---------+-------------------------------------------------------------+
 * Clock Loads column represents the clock pin loads (pin count)
 ** Non-Clock Loads column represents the non-clock pin loads (pin count)
 *** Columns FF, LUTRAM, RAMB through 'Hard IP' represents load cell counts
 
 
-12. Load Cell Placement Summary for Global Clock g0
+10. Cell Type Counts per Global Clock: Region X1Y2
+--------------------------------------------------
+
++-----------+-------+-----------------+------------+-------------+-----------------+----+--------+------+-----+----+------+-----+---------+-------------------------------------------------------------+
+| Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF | LUTRAM | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                                         |
++-----------+-------+-----------------+------------+-------------+-----------------+----+--------+------+-----+----+------+-----+---------+-------------------------------------------------------------+
+| g0        | n/a   | BUFG/O          | None       |          29 |               0 | 27 |      2 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/processing_system7_0/inst/FCLK_CLK0 |
+| g10       | n/a   | BUFG/O          | None       |           0 |               1 |  0 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | design_1_w_i/design_1_i/pulse_5/PULSE                       |
++-----------+-------+-----------------+------------+-------------+-----------------+----+--------+------+-----+----+------+-----+---------+-------------------------------------------------------------+
+* Clock Loads column represents the clock pin loads (pin count)
+** Non-Clock Loads column represents the non-clock pin loads (pin count)
+*** Columns FF, LUTRAM, RAMB through 'Hard IP' represents load cell counts
+
+
+11. Load Cell Placement Summary for Global Clock g0
 ---------------------------------------------------
 
 +-----------+-----------------+-------------------+------------+-------------+----------------+----------+-------------+----------+----------------+----------+-------------------------------------------------------------+
 | Global Id | Driver Type/Pin | Driver Region (D) | Clock      | Period (ns) | Waveform (ns)  | Root (R) | Slice Loads | IO Loads | Clocking Loads | GT Loads | Net                                                         |
 +-----------+-----------------+-------------------+------------+-------------+----------------+----------+-------------+----------+----------------+----------+-------------------------------------------------------------+
-| g0        | BUFG/O          | n/a               | clk_fpga_0 |      20.000 | {0.000 10.000} |          |        2278 |        0 |              0 |        0 | design_1_w_i/design_1_i/processing_system7_0/inst/FCLK_CLK0 |
+| g0        | BUFG/O          | n/a               | clk_fpga_0 |      20.000 | {0.000 10.000} |          |        2279 |        0 |              0 |        0 | design_1_w_i/design_1_i/processing_system7_0/inst/FCLK_CLK0 |
 +-----------+-----------------+-------------------+------------+-------------+----------------+----------+-------------+----------+----------------+----------+-------------------------------------------------------------+
 * Slice Loads column represents load cell count of all cell types other than IO, GT and clock resources
 ** IO Loads column represents load cell count of IO types
@@ -237,16 +222,16 @@ Table of Contents
 **** GT Loads column represents load cell count of GT types
 
 
-+----+-------+------+
-|    | X0    | X1   |
-+----+-------+------+
-| Y2 |   598 |  157 |
-| Y1 |  1393 |  125 |
-| Y0 |     5 |    0 |
-+----+-------+------+
++----+-------+-----+
+|    | X0    | X1  |
++----+-------+-----+
+| Y2 |   954 |  29 |
+| Y1 |  1280 |  11 |
+| Y0 |     5 |   0 |
++----+-------+-----+
 
 
-13. Load Cell Placement Summary for Global Clock g1
+12. Load Cell Placement Summary for Global Clock g1
 ---------------------------------------------------
 
 +-----------+-----------------+-------------------+-------+-------------+---------------+----------+-------------+----------+----------------+----------+----------------------------------------------------+
@@ -264,12 +249,12 @@ Table of Contents
 |    | X0  | X1 |
 +----+-----+----+
 | Y2 |   0 |  0 |
-| Y1 |  63 |  0 |
-| Y0 |   1 |  0 |
+| Y1 |  64 |  0 |
+| Y0 |   0 |  0 |
 +----+-----+----+
 
 
-14. Load Cell Placement Summary for Global Clock g2
+13. Load Cell Placement Summary for Global Clock g2
 ---------------------------------------------------
 
 +-----------+-----------------+-------------------+-------+-------------+---------------+----------+-------------+----------+----------------+----------+----------------------------------------------------+
@@ -283,16 +268,16 @@ Table of Contents
 **** GT Loads column represents load cell count of GT types
 
 
-+----+----+-----+
-|    | X0 | X1  |
-+----+----+-----+
-| Y2 |  0 |   0 |
-| Y1 |  9 |  54 |
-| Y0 |  0 |   1 |
-+----+----+-----+
++----+-----+----+
+|    | X0  | X1 |
++----+-----+----+
+| Y2 |   0 |  0 |
+| Y1 |  64 |  0 |
+| Y0 |   0 |  0 |
++----+-----+----+
 
 
-15. Load Cell Placement Summary for Global Clock g3
+14. Load Cell Placement Summary for Global Clock g3
 ---------------------------------------------------
 
 +-----------+-----------------+-------------------+-------+-------------+---------------+----------+-------------+----------+----------------+----------+----------------------------------------------------+
@@ -306,16 +291,16 @@ Table of Contents
 **** GT Loads column represents load cell count of GT types
 
 
-+----+-----+----+
-|    | X0  | X1 |
-+----+-----+----+
-| Y2 |   0 |  0 |
-| Y1 |  60 |  0 |
-| Y0 |   4 |  0 |
-+----+-----+----+
++----+----+-----+
+|    | X0 | X1  |
++----+----+-----+
+| Y2 |  0 |   0 |
+| Y1 |  0 |  64 |
+| Y0 |  0 |   0 |
++----+----+-----+
 
 
-16. Load Cell Placement Summary for Global Clock g4
+15. Load Cell Placement Summary for Global Clock g4
 ---------------------------------------------------
 
 +-----------+-----------------+-------------------+-------+-------------+---------------+----------+-------------+----------+----------------+----------+----------------------------------------------------+
@@ -338,7 +323,7 @@ Table of Contents
 +----+-----+----+
 
 
-17. Load Cell Placement Summary for Global Clock g5
+16. Load Cell Placement Summary for Global Clock g5
 ---------------------------------------------------
 
 +-----------+-----------------+-------------------+-------+-------------+---------------+----------+-------------+----------+----------------+----------+----------------------------------------------------+
@@ -361,7 +346,7 @@ Table of Contents
 +----+-----+----+
 
 
-18. Load Cell Placement Summary for Global Clock g6
+17. Load Cell Placement Summary for Global Clock g6
 ---------------------------------------------------
 
 +-----------+-----------------+-------------------+-------+-------------+---------------+----------+-------------+----------+----------------+----------+---------------------------------------+
@@ -375,16 +360,16 @@ Table of Contents
 **** GT Loads column represents load cell count of GT types
 
 
-+----+----+-----+
-|    | X0 | X1  |
-+----+----+-----+
-| Y2 |  0 |  32 |
-| Y1 |  1 |   0 |
-| Y0 |  1 |   0 |
-+----+----+-----+
++----+-----+----+
+|    | X0  | X1 |
++----+-----+----+
+| Y2 |  32 |  0 |
+| Y1 |   1 |  0 |
+| Y0 |   1 |  0 |
++----+-----+----+
 
 
-19. Load Cell Placement Summary for Global Clock g7
+18. Load Cell Placement Summary for Global Clock g7
 ---------------------------------------------------
 
 +-----------+-----------------+-------------------+-------+-------------+---------------+----------+-------------+----------+----------------+----------+---------------------------------------+
@@ -402,12 +387,12 @@ Table of Contents
 |    | X0  | X1 |
 +----+-----+----+
 | Y2 |   0 |  0 |
-| Y1 |  32 |  2 |
+| Y1 |  33 |  1 |
 | Y0 |   0 |  0 |
 +----+-----+----+
 
 
-20. Load Cell Placement Summary for Global Clock g8
+19. Load Cell Placement Summary for Global Clock g8
 ---------------------------------------------------
 
 +-----------+-----------------+-------------------+-------+-------------+---------------+----------+-------------+----------+----------------+----------+---------------------------------------+
@@ -425,12 +410,12 @@ Table of Contents
 |    | X0  | X1 |
 +----+-----+----+
 | Y2 |   0 |  0 |
-| Y1 |  33 |  0 |
+| Y1 |  32 |  1 |
 | Y0 |   1 |  0 |
 +----+-----+----+
 
 
-21. Load Cell Placement Summary for Global Clock g9
+20. Load Cell Placement Summary for Global Clock g9
 ---------------------------------------------------
 
 +-----------+-----------------+-------------------+-------+-------------+---------------+----------+-------------+----------+----------------+----------+---------------------------------------+
@@ -453,13 +438,13 @@ Table of Contents
 +----+-----+----+
 
 
-22. Load Cell Placement Summary for Global Clock g10
+21. Load Cell Placement Summary for Global Clock g10
 ----------------------------------------------------
 
 +-----------+-----------------+-------------------+-------+-------------+---------------+----------+-------------+----------+----------------+----------+---------------------------------------+
 | Global Id | Driver Type/Pin | Driver Region (D) | Clock | Period (ns) | Waveform (ns) | Root (R) | Slice Loads | IO Loads | Clocking Loads | GT Loads | Net                                   |
 +-----------+-----------------+-------------------+-------+-------------+---------------+----------+-------------+----------+----------------+----------+---------------------------------------+
-| g10       | BUFG/O          | n/a               |       |             |               |          |          33 |        0 |              0 |        0 | design_1_w_i/design_1_i/pulse_5/PULSE |
+| g10       | BUFG/O          | n/a               |       |             |               |          |          33 |        1 |              0 |        0 | design_1_w_i/design_1_i/pulse_5/PULSE |
 +-----------+-----------------+-------------------+-------+-------------+---------------+----------+-------------+----------+----------------+----------+---------------------------------------+
 * Slice Loads column represents load cell count of all cell types other than IO, GT and clock resources
 ** IO Loads column represents load cell count of IO types
@@ -470,27 +455,28 @@ Table of Contents
 +----+-----+----+
 |    | X0  | X1 |
 +----+-----+----+
-| Y2 |  28 |  0 |
-| Y1 |   5 |  0 |
+| Y2 |  32 |  1 |
+| Y1 |   1 |  0 |
 | Y0 |   0 |  0 |
 +----+-----+----+
 
 
 
 # Location of BUFG Primitives 
-set_property LOC BUFGCTRL_X0Y8 [get_cells design_1_w_i/design_1_i/pulse_5/r_clk_div_out_BUFG_inst]
-set_property LOC BUFGCTRL_X0Y9 [get_cells design_1_w_i/design_1_i/pulse_5/PULSE_BUFG_inst]
-set_property LOC BUFGCTRL_X0Y7 [get_cells design_1_w_i/design_1_i/pulse_4/r_clk_div_out_BUFG_inst]
+set_property LOC BUFGCTRL_X0Y9 [get_cells design_1_w_i/design_1_i/pulse_5/r_clk_div_out_BUFG_inst]
+set_property LOC BUFGCTRL_X0Y4 [get_cells design_1_w_i/design_1_i/pulse_5/PULSE_BUFG_inst]
+set_property LOC BUFGCTRL_X0Y8 [get_cells design_1_w_i/design_1_i/pulse_4/r_clk_div_out_BUFG_inst]
 set_property LOC BUFGCTRL_X0Y3 [get_cells design_1_w_i/design_1_i/pulse_4/PULSE_BUFG_inst]
-set_property LOC BUFGCTRL_X0Y6 [get_cells design_1_w_i/design_1_i/pulse_3/r_clk_div_out_BUFG_inst]
+set_property LOC BUFGCTRL_X0Y7 [get_cells design_1_w_i/design_1_i/pulse_3/r_clk_div_out_BUFG_inst]
 set_property LOC BUFGCTRL_X0Y2 [get_cells design_1_w_i/design_1_i/pulse_3/PULSE_BUFG_inst]
-set_property LOC BUFGCTRL_X0Y5 [get_cells design_1_w_i/design_1_i/pulse_2/r_clk_div_out_BUFG_inst]
+set_property LOC BUFGCTRL_X0Y6 [get_cells design_1_w_i/design_1_i/pulse_2/r_clk_div_out_BUFG_inst]
 set_property LOC BUFGCTRL_X0Y1 [get_cells design_1_w_i/design_1_i/pulse_2/PULSE_BUFG_inst]
-set_property LOC BUFGCTRL_X0Y4 [get_cells design_1_w_i/design_1_i/pulse_1/r_clk_div_out_BUFG_inst]
+set_property LOC BUFGCTRL_X0Y5 [get_cells design_1_w_i/design_1_i/pulse_1/r_clk_div_out_BUFG_inst]
 set_property LOC BUFGCTRL_X0Y0 [get_cells design_1_w_i/design_1_i/pulse_1/PULSE_BUFG_inst]
 set_property LOC BUFGCTRL_X0Y16 [get_cells design_1_w_i/design_1_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG]
 
 # Location of IO Primitives which is load of clock spine
+set_property LOC IOB_X1Y125 [get_cells PULSE_5_OBUF_inst]
 set_property LOC IOB_X1Y95 [get_cells PULSE_4_OBUF_inst]
 set_property LOC IOB_X0Y8 [get_cells PULSE_3_OBUF_inst]
 set_property LOC IOB_X1Y96 [get_cells PULSE_2_OBUF_inst]
@@ -498,21 +484,21 @@ set_property LOC IOB_X0Y7 [get_cells PULSE_1_OBUF_inst]
 
 # Location of clock ports
 
-# Clock net "design_1_w_i/design_1_i/pulse_5/r_clk_div_out_BUFG" driven by instance "design_1_w_i/design_1_i/pulse_5/r_clk_div_out_BUFG_inst" located at site "BUFGCTRL_X0Y8"
+# Clock net "design_1_w_i/design_1_i/pulse_5/r_clk_div_out_BUFG" driven by instance "design_1_w_i/design_1_i/pulse_5/r_clk_div_out_BUFG_inst" located at site "BUFGCTRL_X0Y9"
 #startgroup
 create_pblock {CLKAG_design_1_w_i/design_1_i/pulse_5/r_clk_div_out_BUFG}
 add_cells_to_pblock [get_pblocks  {CLKAG_design_1_w_i/design_1_i/pulse_5/r_clk_div_out_BUFG}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="design_1_w_i/design_1_i/pulse_5/r_clk_div_out_BUFG"}]]]
 resize_pblock [get_pblocks {CLKAG_design_1_w_i/design_1_i/pulse_5/r_clk_div_out_BUFG}] -add {CLOCKREGION_X0Y1:CLOCKREGION_X0Y1}
 #endgroup
 
-# Clock net "design_1_w_i/design_1_i/pulse_5/PULSE" driven by instance "design_1_w_i/design_1_i/pulse_5/PULSE_BUFG_inst" located at site "BUFGCTRL_X0Y9"
+# Clock net "design_1_w_i/design_1_i/pulse_5/PULSE" driven by instance "design_1_w_i/design_1_i/pulse_5/PULSE_BUFG_inst" located at site "BUFGCTRL_X0Y4"
 #startgroup
 create_pblock {CLKAG_design_1_w_i/design_1_i/pulse_5/PULSE}
-add_cells_to_pblock [get_pblocks  {CLKAG_design_1_w_i/design_1_i/pulse_5/PULSE}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="design_1_w_i/design_1_i/pulse_5/PULSE"}]]]
+add_cells_to_pblock [get_pblocks  {CLKAG_design_1_w_i/design_1_i/pulse_5/PULSE}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL && NAME!=PULSE_5_OBUF_inst} -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="design_1_w_i/design_1_i/pulse_5/PULSE"}]]]
 resize_pblock [get_pblocks {CLKAG_design_1_w_i/design_1_i/pulse_5/PULSE}] -add {CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X0Y2:CLOCKREGION_X0Y2}
 #endgroup
 
-# Clock net "design_1_w_i/design_1_i/pulse_4/r_clk_div_out_BUFG" driven by instance "design_1_w_i/design_1_i/pulse_4/r_clk_div_out_BUFG_inst" located at site "BUFGCTRL_X0Y7"
+# Clock net "design_1_w_i/design_1_i/pulse_4/r_clk_div_out_BUFG" driven by instance "design_1_w_i/design_1_i/pulse_4/r_clk_div_out_BUFG_inst" located at site "BUFGCTRL_X0Y8"
 #startgroup
 create_pblock {CLKAG_design_1_w_i/design_1_i/pulse_4/r_clk_div_out_BUFG}
 add_cells_to_pblock [get_pblocks  {CLKAG_design_1_w_i/design_1_i/pulse_4/r_clk_div_out_BUFG}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="design_1_w_i/design_1_i/pulse_4/r_clk_div_out_BUFG"}]]]
@@ -526,46 +512,46 @@ add_cells_to_pblock [get_pblocks  {CLKAG_design_1_w_i/design_1_i/pulse_4/PULSE}]
 resize_pblock [get_pblocks {CLKAG_design_1_w_i/design_1_i/pulse_4/PULSE}] -add {CLOCKREGION_X0Y1:CLOCKREGION_X0Y1}
 #endgroup
 
-# Clock net "design_1_w_i/design_1_i/pulse_3/r_clk_div_out_BUFG" driven by instance "design_1_w_i/design_1_i/pulse_3/r_clk_div_out_BUFG_inst" located at site "BUFGCTRL_X0Y6"
+# Clock net "design_1_w_i/design_1_i/pulse_3/r_clk_div_out_BUFG" driven by instance "design_1_w_i/design_1_i/pulse_3/r_clk_div_out_BUFG_inst" located at site "BUFGCTRL_X0Y7"
 #startgroup
 create_pblock {CLKAG_design_1_w_i/design_1_i/pulse_3/r_clk_div_out_BUFG}
 add_cells_to_pblock [get_pblocks  {CLKAG_design_1_w_i/design_1_i/pulse_3/r_clk_div_out_BUFG}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="design_1_w_i/design_1_i/pulse_3/r_clk_div_out_BUFG"}]]]
-resize_pblock [get_pblocks {CLKAG_design_1_w_i/design_1_i/pulse_3/r_clk_div_out_BUFG}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X0Y1:CLOCKREGION_X0Y1}
+resize_pblock [get_pblocks {CLKAG_design_1_w_i/design_1_i/pulse_3/r_clk_div_out_BUFG}] -add {CLOCKREGION_X1Y1:CLOCKREGION_X1Y1}
 #endgroup
 
 # Clock net "design_1_w_i/design_1_i/pulse_3/PULSE" driven by instance "design_1_w_i/design_1_i/pulse_3/PULSE_BUFG_inst" located at site "BUFGCTRL_X0Y2"
 #startgroup
 create_pblock {CLKAG_design_1_w_i/design_1_i/pulse_3/PULSE}
 add_cells_to_pblock [get_pblocks  {CLKAG_design_1_w_i/design_1_i/pulse_3/PULSE}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL && NAME!=PULSE_3_OBUF_inst} -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="design_1_w_i/design_1_i/pulse_3/PULSE"}]]]
-resize_pblock [get_pblocks {CLKAG_design_1_w_i/design_1_i/pulse_3/PULSE}] -add {CLOCKREGION_X0Y1:CLOCKREGION_X0Y1}
+resize_pblock [get_pblocks {CLKAG_design_1_w_i/design_1_i/pulse_3/PULSE}] -add {CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1}
 #endgroup
 
-# Clock net "design_1_w_i/design_1_i/pulse_2/r_clk_div_out_BUFG" driven by instance "design_1_w_i/design_1_i/pulse_2/r_clk_div_out_BUFG_inst" located at site "BUFGCTRL_X0Y5"
+# Clock net "design_1_w_i/design_1_i/pulse_2/r_clk_div_out_BUFG" driven by instance "design_1_w_i/design_1_i/pulse_2/r_clk_div_out_BUFG_inst" located at site "BUFGCTRL_X0Y6"
 #startgroup
 create_pblock {CLKAG_design_1_w_i/design_1_i/pulse_2/r_clk_div_out_BUFG}
 add_cells_to_pblock [get_pblocks  {CLKAG_design_1_w_i/design_1_i/pulse_2/r_clk_div_out_BUFG}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="design_1_w_i/design_1_i/pulse_2/r_clk_div_out_BUFG"}]]]
-resize_pblock [get_pblocks {CLKAG_design_1_w_i/design_1_i/pulse_2/r_clk_div_out_BUFG}] -add {CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1}
+resize_pblock [get_pblocks {CLKAG_design_1_w_i/design_1_i/pulse_2/r_clk_div_out_BUFG}] -add {CLOCKREGION_X0Y1:CLOCKREGION_X0Y1}
 #endgroup
 
 # Clock net "design_1_w_i/design_1_i/pulse_2/PULSE" driven by instance "design_1_w_i/design_1_i/pulse_2/PULSE_BUFG_inst" located at site "BUFGCTRL_X0Y1"
 #startgroup
 create_pblock {CLKAG_design_1_w_i/design_1_i/pulse_2/PULSE}
 add_cells_to_pblock [get_pblocks  {CLKAG_design_1_w_i/design_1_i/pulse_2/PULSE}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL && NAME!=PULSE_2_OBUF_inst} -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="design_1_w_i/design_1_i/pulse_2/PULSE"}]]]
-resize_pblock [get_pblocks {CLKAG_design_1_w_i/design_1_i/pulse_2/PULSE}] -add {CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1}
+resize_pblock [get_pblocks {CLKAG_design_1_w_i/design_1_i/pulse_2/PULSE}] -add {CLOCKREGION_X0Y1:CLOCKREGION_X0Y1}
 #endgroup
 
-# Clock net "design_1_w_i/design_1_i/pulse_1/r_clk_div_out_BUFG" driven by instance "design_1_w_i/design_1_i/pulse_1/r_clk_div_out_BUFG_inst" located at site "BUFGCTRL_X0Y4"
+# Clock net "design_1_w_i/design_1_i/pulse_1/r_clk_div_out_BUFG" driven by instance "design_1_w_i/design_1_i/pulse_1/r_clk_div_out_BUFG_inst" located at site "BUFGCTRL_X0Y5"
 #startgroup
 create_pblock {CLKAG_design_1_w_i/design_1_i/pulse_1/r_clk_div_out_BUFG}
 add_cells_to_pblock [get_pblocks  {CLKAG_design_1_w_i/design_1_i/pulse_1/r_clk_div_out_BUFG}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="design_1_w_i/design_1_i/pulse_1/r_clk_div_out_BUFG"}]]]
-resize_pblock [get_pblocks {CLKAG_design_1_w_i/design_1_i/pulse_1/r_clk_div_out_BUFG}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X0Y1:CLOCKREGION_X0Y1}
+resize_pblock [get_pblocks {CLKAG_design_1_w_i/design_1_i/pulse_1/r_clk_div_out_BUFG}] -add {CLOCKREGION_X0Y1:CLOCKREGION_X0Y1}
 #endgroup
 
 # Clock net "design_1_w_i/design_1_i/pulse_1/PULSE" driven by instance "design_1_w_i/design_1_i/pulse_1/PULSE_BUFG_inst" located at site "BUFGCTRL_X0Y0"
 #startgroup
 create_pblock {CLKAG_design_1_w_i/design_1_i/pulse_1/PULSE}
 add_cells_to_pblock [get_pblocks  {CLKAG_design_1_w_i/design_1_i/pulse_1/PULSE}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL && NAME!=PULSE_1_OBUF_inst} -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="design_1_w_i/design_1_i/pulse_1/PULSE"}]]]
-resize_pblock [get_pblocks {CLKAG_design_1_w_i/design_1_i/pulse_1/PULSE}] -add {CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X1Y2:CLOCKREGION_X1Y2}
+resize_pblock [get_pblocks {CLKAG_design_1_w_i/design_1_i/pulse_1/PULSE}] -add {CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X0Y2:CLOCKREGION_X0Y2}
 #endgroup
 
 # Clock net "design_1_w_i/design_1_i/processing_system7_0/inst/FCLK_CLK0" driven by instance "design_1_w_i/design_1_i/processing_system7_0/inst/buffer_fclk_clk_0.FCLK_CLK_0_BUFG" located at site "BUFGCTRL_X0Y16"

@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2016.4 (lin64) Build 1733598 Wed Dec 14 22:35:42 MST 2016
-| Date             : Sat Apr 22 16:35:13 2017
+| Date             : Sun Apr 23 13:56:49 2017
 | Host             : skyworks running 64-bit Ubuntu 16.04.2 LTS
 | Command          : report_power -file tk3_top_power_routed.rpt -pb tk3_top_power_summary_routed.pb -rpx tk3_top_power_routed.rpx
 | Design           : tk3_top
@@ -30,12 +30,12 @@ Table of Contents
 ----------
 
 +--------------------------+-------+
-| Total On-Chip Power (W)  | 1.719 |
-| Dynamic (W)              | 1.561 |
+| Total On-Chip Power (W)  | 1.722 |
+| Dynamic (W)              | 1.564 |
 | Device Static (W)        | 0.158 |
 | Effective TJA (C/W)      | 11.5  |
-| Max Ambient (C)          | 65.2  |
-| Junction Temperature (C) | 44.8  |
+| Max Ambient (C)          | 65.1  |
+| Junction Temperature (C) | 44.9  |
 | Confidence Level         | Low   |
 | Setting File             | ---   |
 | Simulation Activity File | ---   |
@@ -50,18 +50,18 @@ Table of Contents
 | On-Chip                 | Power (W) | Used     | Available | Utilization (%) |
 +-------------------------+-----------+----------+-----------+-----------------+
 | Clocks                  |     0.004 |        3 |       --- |             --- |
-| Slice Logic             |     0.005 |     6324 |       --- |             --- |
-|   LUT as Logic          |     0.004 |     2234 |     53200 |            4.20 |
+| Slice Logic             |     0.005 |     6326 |       --- |             --- |
+|   LUT as Logic          |     0.004 |     2213 |     53200 |            4.16 |
 |   CARRY4                |    <0.001 |      183 |     13300 |            1.38 |
-|   Register              |    <0.001 |     2813 |    106400 |            2.64 |
+|   Register              |    <0.001 |     2814 |    106400 |            2.64 |
 |   BUFG                  |    <0.001 |       10 |        32 |           31.25 |
 |   LUT as Shift Register |    <0.001 |       84 |     17400 |            0.48 |
 |   Others                |     0.000 |      271 |       --- |             --- |
-| Signals                 |     0.005 |     4717 |       --- |             --- |
-| I/O                     |     0.016 |       28 |       125 |           22.40 |
+| Signals                 |     0.006 |     4720 |       --- |             --- |
+| I/O                     |     0.019 |       31 |       125 |           24.80 |
 | PS7                     |     1.530 |        1 |       --- |             --- |
 | Static Power            |     0.158 |          |           |                 |
-| Total                   |     1.719 |          |           |                 |
+| Total                   |     1.722 |          |           |                 |
 +-------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -147,9 +147,9 @@ Table of Contents
 +-------------------------------------------------------------------------------+-----------+
 | Name                                                                          | Power (W) |
 +-------------------------------------------------------------------------------+-----------+
-| tk3_top                                                                       |     1.561 |
+| tk3_top                                                                       |     1.564 |
 |   design_1_w_i                                                                |     1.549 |
-|     design_1_i                                                                |     1.544 |
+|     design_1_i                                                                |     1.545 |
 |       axi_uartlite_0                                                          |    <0.001 |
 |         U0                                                                    |    <0.001 |
 |           AXI_LITE_IPIF_I                                                     |    <0.001 |

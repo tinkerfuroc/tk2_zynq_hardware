@@ -2,8 +2,8 @@
 # Vivado v2016.4 (64-bit)
 # SW Build 1733598 on Wed Dec 14 22:35:42 MST 2016
 # IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
-# Start of session at: Sat Apr 22 16:32:51 2017
-# Process ID: 13829
+# Start of session at: Sun Apr 23 13:54:29 2017
+# Process ID: 31865
 # Current directory: /home/mxj/workspace/tk2_zynq_hardware/tk2_linux.runs/synth_1
 # Command line: vivado -log tk3_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tk3_top.tcl
 # Log file: /home/mxj/workspace/tk2_zynq_hardware/tk2_linux.runs/synth_1/tk3_top.vds
